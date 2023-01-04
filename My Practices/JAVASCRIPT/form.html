@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="body" style="background-color:linen;">
+
+    <h4>Task No.: 2</h4>
+    <h2><b>Details Form :</b> </h2>
+    <br>
+    <br>
+    <br>
+
+
+    <label>Enter Your Name:</label><br>
+    <input id="fname" type="text" placeholder="name"><br><br>
+    <label>Enter Your Mobile No.:</label><br>
+    <input id="mobile" type="text" placeholder="mobile"><br><br>
+    <label>Enter Your Email Id:</label><br>
+    <input id="mail" type="text" placeholder="email"><br><br>
+    <label>Enter Your Gender:</label><br>
+    <select id="gender">
+        <option value="selected"></option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+    <input type="submit" onclick="submit()" value="submit">
+    <input type="button" onclick="clearFill()" value="Clear">
+    <br><br><br>
+
+    <input type="submit" onclick="addData()" value="table">
+    <table id="root" border="1">
+
+    </table>
+
+</body>
+<script src="form.js"></script>
+
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.smailldiv {
+    display: b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.catEl {
+    color: black;
+    padding: auto;
+    text-align: left;
+    text-shadow: 1px 2px 4px rgb(27, 23, 23);
+}
+
+.titEl {
+    color: black;
+    text-decoration: 1px underline dashed rgb(7, 7, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.iDEl {
+    color: black;
+    text-shadow: 1px 1px 4px;
+}
+
+.imgEl {
+    width: 200px;
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.disCEL {
+
+    color: dimgray;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.pricEEL {
+    color: rgb(0, 0, 0);
+    text-decoration: 1px underline double rgb(251, 255, 0);
+    text-shadow: 1px 1px 5px rgb(135, 27, 223);
+}
+
+.ratEEl {
+    color: rgb(240, 109, 33);
+}
+
+.counTEl {
+    color: rgb(231, 93, 14);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body style="background-color: bisque ;">
+    <h3>Task : 2</h3>
+    <br>
+    <h2>Users Detail form : </h2>
+    <br><br>
+    <!-- <form onsubmit="submit()">
+        <label>Enter Your Full Name:</label> <br>
+        <input id="fname" type="text" placeholder="Full Name"><br><br>
+        <label>Enter Your Mobile No.:</label> <br>
+        <input id="mobile" type="text" placeholder="Mobile No"><br><br>
+        <label>Enter Your Gender:</label> <br>
+        <select id="gender">
+            <option selected></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <input type="Submit" value="Submit">
+
+        
+    </form> -->
+
+
+
+
+    <form onsubmit="store()">
+        <label>Enter Your Full Name:</label> <br>
+        <input id="txt_fname" type="text"><br><br>
+        <label>Enter Your Mobile No.:</label> <br>
+        <input id="txt_mobile" type="text"><br><br>
+        <label>Enter Your Gender:</label> <br>
+        <select id="gender">
+            <option selected></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <input type="Submit" value="Submit">
+        <input type="button" onclick="DisplayData()" value="get">
+    </form>
+
+    <table id="mydata">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mobile no</th>
+                <th>Gender</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sumaiya</td>
+                <td>7721964787</td>
+                <td>female</td>
+                <td><input type="button" onclick="DisplayData()" value="get"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+<script src="task2.js"></script>
+
+</html>

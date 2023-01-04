@@ -1,0 +1,236 @@
+body {
+    color: rgb(16, 0, 158);
+    background-image: url("11.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(99, 41, 3);
+}
+
+#p1 {
+    text-align: center;
+    color: black;
+    border: solid;
+    border-color: lightblue;
+    border-radius: 10px;
+
+}
+
+#p2 {
+    text-align: center;
+    color: black;
+    border: dotted;
+    border-color: aqua;
+    border-radius: 10px;
+
+
+}
+
+#p3 {
+    text-align: center;
+    color: black;
+    border: double;
+    border-color: orangered;
+    border-radius: 10px;
+
+}
+
+#p4 {
+    text-align: center;
+    color: black;
+    border: dashed;
+    border-color: palevioletred;
+    border-radius: 10px;
+
+}
+
+#p5 {
+    text-align: center;
+    color: black;
+    border: groove;
+    border-color: yellow;
+    border-radius: 10px;
+
+}
+
+#p6 {
+    text-align: center;
+    color: black;
+    border: ridge;
+    border-color: green;
+    border-radius: 10px;
+
+}
+
+#p7 {
+    text-align: center;
+    color: black;
+    border: inset;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+#p8 {
+    text-align: center;
+    margin: 30px 200px 30px 200px;
+    color: black;
+    border: outset;
+    border-color: blue;
+    border-radius: 10px;
+
+}
+
+#divArea {
+    text-align: center;
+    color: darkslategray;
+    border: double black;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+#divShortArea {
+    text-align: center;
+    border: solid black;
+    border-radius: 15px;
+    /* margin shortcode: top right bottom left */
+    margin: 50px 200px 50px 200px;
+}
+
+#auto {
+
+    color: brown;
+    text-align: center;
+    border: solid red 2px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin: auto;
+    width: 300px;
+}
+
+#paddingArea {
+    color: rgb(42, 0, 110);
+    border: 2px double green;
+    background-color: rgb(174, 243, 96);
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+}
+
+#text1 {
+    color: black;
+    background-color: rgb(60, 202, 131);
+    width: 200px;
+    padding: 50px;
+
+}
+
+#p9 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-color: black;
+    outline: dotted red;
+    outline-width: 5px;
+
+}
+
+#p10 {
+    text-align: center;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    outline: double rgb(8, 10, 100) 5px;
+
+}
+
+#p11 {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: black;
+    border: double;
+    border-color: black;
+    outline: solid rgb(42, 211, 197) 4px;
+    outline-offset: 15px;
+
+}
+
+#textArea {
+    text-align: center;
+    color: rgb(52, 35, 66);
+
+}
+
+img#a1 {
+    vertical-align: baseline;
+}
+
+img#a2 {
+    vertical-align: text-top;
+}
+
+img#a3 {
+    vertical-align: text-bottom;
+}
+
+img#a4 {
+    vertical-align: sub;
+}
+
+img#a5 {
+    vertical-align: super;
+}
+
+#p12 {
+    text-decoration: overline red;
+}
+
+#p13 {
+    text-decoration: line-through blue;
+    text-decoration-thickness: 3px;
+}
+
+#p14 {
+    text-decoration: underline green;
+}
+
+#p15 {
+    text-decoration: overline underline brown;
+    text-decoration-thickness: 5px;
+}
+
+#p16 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: darkmagenta;
+}
+
+#p17 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: chartreuse;
+    text-decoration-thickness: 3px;
+}
+
+#p18 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 4px;
+}
+
+#p19 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: brown;
+    text-decoration-thickness: 5px;
+}
